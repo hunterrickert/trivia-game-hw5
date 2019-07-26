@@ -92,8 +92,8 @@ function buildQuiz() {
         output.push(
             `<div class="question"> ${currentQuestion.question} </div>
       <div class="answers"> ${answers.join("")} </div><div id="correctAnswer[${currentQuestion}]"></div>`
-      
-        );
+      );
+      console.log(this)
     });
 
     // finally combine our output list into one string of HTML and put it on the page
